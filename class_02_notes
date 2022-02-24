@@ -1,0 +1,46 @@
+Serperation of concerns is the golden rule:
+
+- HTML = Content/Structure
+- CSS = Style
+- JS = Behaviour/Interaction
+
+
+We must use the correct tags on our web pages for several reasons:
+
+- To allow people who use screen readers to view our Content
+- To allow Google to rank our webpage
+
+
+Heading elements (tags)
+
+<h1> MOST IMPORTANT </h1>
+...
+<h6> LEAST IMPORTANT </h6>
+
+
+Other Text elements
+
+<p> Paragraph </p>
+<span> Short text </span>
+
+
+Assisted Device elements
+
+<em> Stress Emphasis </em>
+<strong> Strong Importance </strong>
+- We must use these for ASSISTED reasons, not for visual reasons
+
+
+Ordered and Unordered list
+
+- <ol> and <ul> with <li> tags around the list items
+
+
+Containing elements
+
+- <div>, older tag that usually has a much more appropiate tag to use 
+- <section>, partition seperate relating parts of the website
+- <article>, what can we section together that makes sense on its own
+- <aside>, think for things like adverts 
+- <header>, for content at the beginning of the document
+- <footer> "" end ""
